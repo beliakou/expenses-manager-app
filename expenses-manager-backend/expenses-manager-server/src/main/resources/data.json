@@ -18,7 +18,7 @@
     "user": {
       "name": "Vasya"
     },
-    "date": "2020-01-20",
+    "date": "2020-01-22",
     "category": {
       "name": "Food"
     },
@@ -28,9 +28,21 @@
     "_class": "com.github.beliakou.expenses.server.model.Expense",
     "name": "Clothes",
     "user": {
-      "name": "Petya"
+      "name": "Vasya"
     },
-    "date": "2020-01-20",
+    "date": "2020-01-28",
+    "category": {
+      "name": "Food"
+    },
+    "amount": "10.25"
+  },
+  {
+    "_class": "com.github.beliakou.expenses.server.model.Expense",
+    "name": "Clothes",
+    "user": {
+      "name": "Vasya"
+    },
+    "date": "2020-02-15",
     "category": {
       "name": "Food"
     },
