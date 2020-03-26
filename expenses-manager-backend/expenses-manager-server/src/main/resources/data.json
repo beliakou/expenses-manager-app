@@ -1,51 +1,65 @@
 [
   {
     "_class": "com.github.beliakou.expenses.server.model.User",
-    "name": "Vasya",
+    "id": "5e7d10c3da985233d4f70e10",
+    "name": "Alice",
+    "password": "123"
+  },
+  {
+    "_class": "com.github.beliakou.expenses.server.model.User",
+    "id": "5e7d113980b6ec0ca0b4e979",
+    "name": "Bob",
     "password": "123"
   },
   {
     "_class": "com.github.beliakou.expenses.server.model.Category",
+    "id": "5e7d118b09e9357a831b1dc4",
+    "userId": "5e7d10c3da985233d4f70e10",
     "name": "Food"
   },
   {
     "_class": "com.github.beliakou.expenses.server.model.Category",
+    "id": "5e7d113980b6ec0ca0b4e97e",
+    "userId": "5e7d10c3da985233d4f70e10",
     "name": "Clothes"
   },
   {
+    "_class": "com.github.beliakou.expenses.server.model.Category",
+    "id": "5e7d113980b6ec0ca0b4e97d",
+    "userId": "5e7d113980b6ec0ca0b4e979",
+    "name": "Snacks"
+  },
+  {
+    "_class": "com.github.beliakou.expenses.server.model.Category",
+    "id": "5e7d118b09e9357a831b1dc5",
+    "userId": "5e7d113980b6ec0ca0b4e979",
+    "name": "Present"
+  },
+  {
     "_class": "com.github.beliakou.expenses.server.model.Expense",
-    "name": "Clothes",
-    "user": {
-      "name": "Vasya"
-    },
+    "id": "5e7d118b09e9357a831b1dc7",
+    "name": "Dinner",
+    "userId": "5e7d10c3da985233d4f70e10",
     "date": "2020-01-22",
-    "category": {
-      "name": "Food"
-    },
+    "category": "Food",
     "amount": "10.25"
   },
   {
     "_class": "com.github.beliakou.expenses.server.model.Expense",
+    "id": "5e7d12e1f4086364a389dfa4",
     "name": "Clothes",
-    "user": {
-      "name": "Vasya"
-    },
+    "userId": "5e7d10c3da985233d4f70e10",
     "date": "2020-01-28",
-    "category": {
-      "name": "Food"
-    },
-    "amount": "10.25"
+    "category": "Clothes",
+    "amount": "12.50"
   },
   {
     "_class": "com.github.beliakou.expenses.server.model.Expense",
-    "name": "Clothes",
-    "user": {
-      "name": "Vasya"
-    },
+    "id": "5e7d12e1f4086364a389dfa5",
+    "name": "Some food",
+    "userId": "5e7d113980b6ec0ca0b4e979",
     "date": "2020-02-15",
-    "category": {
-      "name": "Food"
-    },
-    "amount": "10.25"
+    "category": "Present",
+    "amount": "5.5"
   }
 ]

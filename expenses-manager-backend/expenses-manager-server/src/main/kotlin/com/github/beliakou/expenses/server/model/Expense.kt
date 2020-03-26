@@ -6,4 +6,8 @@ import java.math.BigDecimal
 import java.time.LocalDate
 
 @Document
-data class Expense(@Id val id: String?, val user: User, val date: LocalDate, val category: Category, val amount: BigDecimal)
+data class Expense(@Id val id: String?,
+                   val userId: String,
+                   val date: LocalDate,
+                   val category: String,
+                   val amount: BigDecimal)
