@@ -1,0 +1,7 @@
+[
+  {
+    "_class": "com.github.beliakou.expenses.domain.User",
+    "name": "Vasya",
+    "password": "123"
+  }
+]
