@@ -17,8 +17,7 @@ public class UserController {
     }
 
     @GetMapping("/user")
-    ResponseEntity<User> getUser(@RequestParam("name") String username) {
-        User user = this.userRepository.findUser(username).orElseThrow(RuntimeException::new);
-        return ResponseEntity.ok().body(user);
+    public User getUser(@RequestParam("name") String username) {
+        return this.userRepository.findUser(username).orElseThrow(RuntimeException::new);
     }
 }
